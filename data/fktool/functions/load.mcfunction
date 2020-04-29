@@ -1,3 +1,4 @@
+# V1.1.0
 scoreboard objectives add fktool dummy
 # const
 scoreboard players set #-1 fktool -1
