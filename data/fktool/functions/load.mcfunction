@@ -31,3 +31,5 @@ scoreboard players set #60min fktool 72000
 function fktool:mcv/get_mcv
 function fktool:rand/get_rand
 function fktool:biome/get_biome
+# check conflict
+function fktool:conflict
