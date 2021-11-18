@@ -1,4 +1,4 @@
-## require : loot_tables/blocks/yellow_shulker_box
+## require : minecraft:loot_tables/blocks/yellow_shulker_box
 
 # init
 setblock ~ 255 ~ minecraft:yellow_shulker_box
