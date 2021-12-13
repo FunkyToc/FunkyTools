@@ -17,12 +17,12 @@ You now can use :
     /execute if score @s MYBIOME matches 8 run say I'm in the biome nether_wastes !
 
   - /function fktool:get_rand
-    /execute if score rand fktool matches 0..50 run say I had 50% chance to get this message !
+    /execute if score rand fktool matches 1..50 run say I had 50% chance to get this message !
 
 # Author
 - Name : FunkyToc 
-- Website : http://funkytoc.fr
-- Contact : http://funkytoc.fr/fr/contact
+- Website : https://funkytoc.fr/en/home
+- Contact : https://funkytoc.fr/en/contact
 
 # Thanks 
 ...
