@@ -3,14 +3,14 @@
     "condition": "minecraft:inverted",
     "term": {
       "condition": "minecraft:reference",
-      "name": "fktool:location/in_lava"
+      "name": "fktool:entity/in_lava"
     }
   },
   {
     "condition": "minecraft:inverted",
     "term": {
       "condition": "minecraft:reference",
-      "name": "fktool:location/in_water"
+      "name": "fktool:entity/in_water"
     }
   }
 ]
