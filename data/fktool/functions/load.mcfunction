@@ -1,5 +1,6 @@
-# V1.1.0
+# scores
 scoreboard objectives add fktool dummy
+
 # const
 scoreboard players set #-1 fktool -1
 scoreboard players set #1 fktool 1
@@ -32,6 +33,7 @@ scoreboard players set #90 fktool 90
 scoreboard players set #100 fktool 100
 scoreboard players set #101 fktool 101
 scoreboard players set #1000 fktool 1000
+
 # timestamps
 scoreboard players set #1min fktool 1200
 scoreboard players set #2min fktool 2400
@@ -42,9 +44,14 @@ scoreboard players set #10min fktool 12000
 scoreboard players set #20min fktool 24000
 scoreboard players set #30min fktool 36000
 scoreboard players set #60min fktool 72000
+
 # check conflict
 function fktool:conflict
+
 # init
 function fktool:mcv/get_mcv
 function fktool:rand/get_rand
 function fktool:biome/get_biome
+
+# resets
+kill @e[tag=tool_random]

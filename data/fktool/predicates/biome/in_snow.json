@@ -4,49 +4,67 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:forest"
+        "biome": "minecraft:snowy_beach"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:dark_forest"
+        "biome": "minecraft:snowy_plains"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:flower_forest"
+        "biome": "minecraft:snowy_slopes"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:birch_forest"
+        "biome": "minecraft:snowy_taiga"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:crimson_forest"
+        "biome": "minecraft:grove"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:old_growth_birch_forest"
+        "biome": "minecraft:jagged_peaks"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:warped_forest"
+        "biome": "minecraft:frozen_river"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:windswept_forest"
+        "biome": "minecraft:frozen_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:frozen_peaks"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:deep_frozen_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:ice_spikes"
       }
     }
   ]

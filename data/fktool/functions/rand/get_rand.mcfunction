@@ -1,2 +1,3 @@
 execute if score McVersion fktool matches ..11500 run function fktool:rand/rand_1.13
-execute if score McVersion fktool matches 11600.. run function fktool:rand/rand_1.16
+execute if score McVersion fktool matches 11600..11602 run function fktool:rand/rand_1.16
+execute if score McVersion fktool matches 11700.. run function fktool:rand/rand_1.17

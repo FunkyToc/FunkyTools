@@ -4,25 +4,19 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:mountains"
+        "biome": "minecraft:badlands"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:gravelly_mountains"
+        "biome": "minecraft:eroded_badlands"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:wooded_mountains"
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:stone_shore"
+        "biome": "minecraft:wooded_badlands"
       }
     }
   ]
