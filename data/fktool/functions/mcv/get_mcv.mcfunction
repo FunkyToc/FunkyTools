@@ -4,7 +4,7 @@ execute store result score DataVersion fktool run data get entity @r DataVersion
 # set
 scoreboard players set McVersion fktool 0
 execute if score DataVersion fktool matches 2976.. run scoreboard players set McVersion fktool 11802
-execute if score DataVersion fktool matches 2866..2975 run scoreboard players set McVersion fktool 11802
+execute if score DataVersion fktool matches 2966..2975 run scoreboard players set McVersion fktool 11802
 execute if score DataVersion fktool matches 2825..2865 run scoreboard players set McVersion fktool 11800
 execute if score DataVersion fktool matches 2701..2730 run scoreboard players set McVersion fktool 11700
 execute if score DataVersion fktool matches 2569..2586 run scoreboard players set McVersion fktool 11602
