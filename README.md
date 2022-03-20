@@ -14,10 +14,10 @@ You now can use :
   - /execute if score McVersion fktool matches ..11500 run say We are in 1.15 or previous versions ! 
 
   - /execute as @p at @s run function fktool:biome/get_biome
-    /execute if score @s MYBIOME matches 8 run say I'm in the biome nether_wastes !
+    /execute if score Biome fktool matches 8 run say I'm in the biome nether_wastes !
 
   - /function fktool:get_rand
-    /execute if score rand fktool matches 1..50 run say I had 50% chance to get this message !
+    /execute if score Rand fktool matches 0..50 run say I had 50% chance to get this message !
 
 # Author
 - Name : FunkyToc 
