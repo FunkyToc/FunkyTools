@@ -52,6 +52,7 @@ function fktool:conflict
 function fktool:mcv/get_mcv
 function fktool:rand/get_rand
 function fktool:biome/get_biome
+function fktool:utils/get_difficulty
 
 # resets
 kill @e[tag=tool_random]
