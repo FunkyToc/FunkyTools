@@ -38,6 +38,7 @@ scoreboard players set #80 fktool 80
 scoreboard players set #85 fktool 85
 scoreboard players set #90 fktool 90
 scoreboard players set #95 fktool 95
+scoreboard players set #99 fktool 99
 scoreboard players set #100 fktool 100
 scoreboard players set #101 fktool 101
 scoreboard players set #1000 fktool 1000
@@ -57,10 +58,6 @@ scoreboard players set #60min fktool 72000
 function fktool:conflict
 
 # init
-function fktool:mcv/get_mcv
-function fktool:rand/get_rand
-function fktool:biome/get_biome
-function fktool:utils/get_difficulty
-
-# resets
-kill @e[tag=tool_random]
+function fktool:mcv/get
+function fktool:rng/get
+function fktool:difficulty/get
