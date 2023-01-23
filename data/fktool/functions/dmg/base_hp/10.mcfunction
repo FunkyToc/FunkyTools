@@ -1,0 +1,10 @@
+execute if score #tmp fktool.hp_base matches 10 run attribute @s minecraft:generic.max_health base set 10
+execute if score #tmp fktool.hp_base matches 11 run attribute @s minecraft:generic.max_health base set 11
+execute if score #tmp fktool.hp_base matches 12 run attribute @s minecraft:generic.max_health base set 12
+execute if score #tmp fktool.hp_base matches 13 run attribute @s minecraft:generic.max_health base set 13
+execute if score #tmp fktool.hp_base matches 14 run attribute @s minecraft:generic.max_health base set 14
+execute if score #tmp fktool.hp_base matches 15 run attribute @s minecraft:generic.max_health base set 15
+execute if score #tmp fktool.hp_base matches 16 run attribute @s minecraft:generic.max_health base set 16
+execute if score #tmp fktool.hp_base matches 17 run attribute @s minecraft:generic.max_health base set 17
+execute if score #tmp fktool.hp_base matches 18 run attribute @s minecraft:generic.max_health base set 18
+execute if score #tmp fktool.hp_base matches 19 run attribute @s minecraft:generic.max_health base set 19
