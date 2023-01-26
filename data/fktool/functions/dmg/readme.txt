@@ -1,5 +1,13 @@
-### How to use
-
-1. Enable the module in your datapack : /scoreboard players set DmgModule fktool 1
-2. Reload datapacks
-3. Deal custom damage from 1 to 64 using : /scoreboard players set @e[YOUR_SELECTOR] fktool.dmg 3
+### Damage Module
+# 
+# Base code by Smithed
+# https://wiki.smithed.dev/libraries/damage/
+# 
+# Reworked by FunkyToc
+# https://github.com/FunkyToc/FunkyTools
+# 
+# 
+# This module gives an easy way to deal accurate damage to player and entities using:
+# /scoreboard players add @s fktool.dmg 3
+# /function fktool:dmg/entity/apply/pure
+# 

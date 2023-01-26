@@ -41,6 +41,7 @@ scoreboard players set #95 fktool 95
 scoreboard players set #99 fktool 99
 scoreboard players set #100 fktool 100
 scoreboard players set #101 fktool 101
+scoreboard players set #200 fktool 200
 scoreboard players set #1000 fktool 1000
 
 # timestamps
