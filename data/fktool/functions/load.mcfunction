@@ -37,11 +37,25 @@ scoreboard players set #75 fktool 75
 scoreboard players set #80 fktool 80
 scoreboard players set #85 fktool 85
 scoreboard players set #90 fktool 90
+scoreboard players set #91 fktool 91
+scoreboard players set #92 fktool 92
+scoreboard players set #93 fktool 93
+scoreboard players set #94 fktool 94
 scoreboard players set #95 fktool 95
+scoreboard players set #96 fktool 96
+scoreboard players set #97 fktool 97
+scoreboard players set #98 fktool 98
 scoreboard players set #99 fktool 99
 scoreboard players set #100 fktool 100
 scoreboard players set #101 fktool 101
 scoreboard players set #200 fktool 200
+scoreboard players set #300 fktool 300
+scoreboard players set #400 fktool 400
+scoreboard players set #500 fktool 500
+scoreboard players set #600 fktool 600
+scoreboard players set #700 fktool 700
+scoreboard players set #800 fktool 800
+scoreboard players set #900 fktool 900
 scoreboard players set #1000 fktool 1000
 
 # timestamps
