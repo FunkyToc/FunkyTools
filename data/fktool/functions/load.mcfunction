@@ -57,6 +57,9 @@ scoreboard players set #700 fktool 700
 scoreboard players set #800 fktool 800
 scoreboard players set #900 fktool 900
 scoreboard players set #1000 fktool 1000
+scoreboard players set #10000 fktool 10000
+scoreboard players set #100000 fktool 100000
+scoreboard players set #1000000 fktool 1000000
 
 # timestamps
 scoreboard players set #1min fktool 1200
@@ -68,6 +71,9 @@ scoreboard players set #10min fktool 12000
 scoreboard players set #20min fktool 24000
 scoreboard players set #30min fktool 36000
 scoreboard players set #60min fktool 72000
+scoreboard players set #2hour fktool 144000
+scoreboard players set #4hour fktool 288000
+scoreboard players set #8hour fktool 576000
 
 # properties
 execute unless score DmgModule fktool matches 0.. run scoreboard players set DmgModule fktool 0
