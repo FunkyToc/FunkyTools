@@ -20,10 +20,6 @@ You now can use :
   - get the result : /function fktool:difficulty/get
     in your code : /execute if score Difficulty fktool matches 3 run say The adventure is in Hard difficulty
 
-  - enable module : /scoreboard players set DmgModule fktool 1
-    set damage : /scoreboard players add @s fktool.dmg 3
-    apply damage : /function fktool:dmg/entity/apply/pure
-
 # Author
 - Name : FunkyToc 
 - Website : https://funkytoc.fr

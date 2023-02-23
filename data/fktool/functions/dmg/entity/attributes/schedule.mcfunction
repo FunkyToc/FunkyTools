@@ -1,1 +1,0 @@
-execute as @a[tag=fktool.dmg.applied] run function fktool:dmg/entity/attributes/remove

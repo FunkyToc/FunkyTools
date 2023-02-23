@@ -76,11 +76,10 @@ scoreboard players set #4hour fktool 288000
 scoreboard players set #8hour fktool 576000
 
 # properties
-execute unless score DmgModule fktool matches 0.. run scoreboard players set DmgModule fktool 0
+
 
 # modules
-execute if score DmgModule fktool matches 1 run function fktool:dmg/load
-execute if score DmgModule fktool matches 0 run function fktool:dmg/uninstall
+
 
 # check conflict
 function fktool:conflict
