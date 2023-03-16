@@ -85,6 +85,7 @@ scoreboard players set #8hour fktool 576000
 function fktool:conflict
 
 # init
+function fktool:difficulty/get
 function fktool:mcv/get
 function fktool:rng/get
-function fktool:difficulty/get
+function fktool:systime/get
