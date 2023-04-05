@@ -88,4 +88,3 @@ function fktool:conflict
 function fktool:difficulty/get
 function fktool:mcv/get
 function fktool:rng/get
-function fktool:systime/get
