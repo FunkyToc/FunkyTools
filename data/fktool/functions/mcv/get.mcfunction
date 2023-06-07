@@ -3,7 +3,8 @@ execute store result score DataVersion fktool run data get entity @r DataVersion
 
 # set
 scoreboard players set McVersion fktool 0
-execute if score DataVersion fktool matches 3338.. run scoreboard players set McVersion fktool 11904
+execute if score DataVersion fktool matches 3463.. run scoreboard players set McVersion fktool 12000
+execute if score DataVersion fktool matches 3442..3463 run scoreboard players set McVersion fktool 12000
 execute if score DataVersion fktool matches 3320..3337 run scoreboard players set McVersion fktool 11904
 execute if score DataVersion fktool matches 3205..3218 run scoreboard players set McVersion fktool 11903
 execute if score DataVersion fktool matches 3066..3120 run scoreboard players set McVersion fktool 11900
@@ -18,7 +19,7 @@ execute if score DataVersion fktool matches 1444..1631 run scoreboard players se
 execute if score DataVersion fktool matches 1..1343 run scoreboard players set McVersion fktool 11200
 
 # require
-execute unless entity @p run tellraw @a {"text":"WARNING: a connected player is required to get the Minecraft version. Default setting : 1.19.3. Use /reload with a player ingame to update it.","color":"red"}
-execute if entity @p unless score DataVersion fktool matches 1.. run tellraw @a {"text":"ERROR: DataVersion not recognized. Do you use intensive plugins, mods or optimized server type? Default setting : 1.19.3.","color":"red"}
+execute unless entity @p run tellraw @a {"text":"WARNING: a connected player is required to get the Minecraft version. Default setting : 1.20. Use /reload with a player ingame to update it.","color":"red"}
+execute if entity @p unless score DataVersion fktool matches 1.. run tellraw @a {"text":"ERROR: DataVersion not recognized. Do you use intensive plugins, mods or optimized server type? Default setting : 1.20.","color":"red"}
 execute unless score DataVersion fktool matches 1.. run scoreboard players set DataVersion fktool -1
-execute if score DataVersion fktool matches -1 run scoreboard players set McVersion fktool 11904
+execute if score DataVersion fktool matches -1 run scoreboard players set McVersion fktool 12000

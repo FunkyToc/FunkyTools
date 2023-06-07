@@ -3,27 +3,20 @@
   "terms": [
     {
       "condition": "minecraft:reference",
-      "name": "fktool:entity/mob/1.16.2"
+      "name": "fktool:entity/mob/1.19"
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:axolotl"
+        "type": "minecraft:camel"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:glow_squid"
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type": "minecraft:goat"
+        "type": "minecraft:sniffer"
       }
     }
   ]
