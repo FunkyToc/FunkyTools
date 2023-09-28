@@ -5,8 +5,12 @@
       "condition": "minecraft:location_check",
       "offsetY": 0,
       "predicate": {
-        "fluid": {
-          "fluid": "minecraft:powder_snow"
+        "block": {
+          "blocks": [
+            "minecraft:powder_snow",
+            "minecraft:snow",
+            "minecraft:snow_block"
+          ]
         }
       }
     }
