@@ -1,0 +1,1 @@
+execute store result score Random fktool run random roll 0..100
