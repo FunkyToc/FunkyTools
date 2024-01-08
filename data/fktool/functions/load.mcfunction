@@ -2,6 +2,10 @@
 scoreboard objectives add fktool dummy
 
 # const
+scoreboard players set #-5 fktool -5
+scoreboard players set #-4 fktool -4
+scoreboard players set #-3 fktool -3
+scoreboard players set #-2 fktool -2
 scoreboard players set #-1 fktool -1
 scoreboard players set #1 fktool 1
 scoreboard players set #2 fktool 2
@@ -74,6 +78,9 @@ scoreboard players set #60min fktool 72000
 scoreboard players set #2hour fktool 144000
 scoreboard players set #4hour fktool 288000
 scoreboard players set #8hour fktool 576000
+
+# dev tag
+execute as FunkyToc unless entity @s[tag=dev] run tellraw FunkyToc [{"text":"[fktool] DEV tag not found ","color":"red"},{"text":"[add dev tag]","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/tag FunkyToc add dev"}}]
 
 # properties
 

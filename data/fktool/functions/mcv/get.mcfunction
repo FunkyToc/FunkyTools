@@ -1,7 +1,13 @@
 # get
-execute store result score DataVersion fktool run data get entity @r DataVersion
+execute store result score DataVersion fktool run data get entity @p DataVersion
 
-# set
+# default McVersion
+scoreboard players set #McVersionDefault fktool 12004
+
+# previous McVersion
+execute if score McVersion fktool matches 1.. run scoreboard players operation #McVersionPrevious fktool = McVersion fktool
+
+# set McVersion
 scoreboard players set McVersion fktool 0
 execute if score DataVersion fktool matches 3700.. run scoreboard players set McVersion fktool 12004
 execute if score DataVersion fktool matches 3579..3699 run scoreboard players set McVersion fktool 12003
@@ -20,8 +26,17 @@ execute if score DataVersion fktool matches 1901..1976 run scoreboard players se
 execute if score DataVersion fktool matches 1444..1631 run scoreboard players set McVersion fktool 11300
 execute if score DataVersion fktool matches 1..1343 run scoreboard players set McVersion fktool 11200
 
-# require
-execute unless entity @p run tellraw @a {"text":"WARNING: a connected player is required to get the Minecraft version. Default setting : 1.20.4 . Use /reload with a player ingame to update it.","color":"red"}
-execute if entity @p unless score DataVersion fktool matches 1.. run tellraw @a {"text":"ERROR: DataVersion not recognized. Do you use intensive plugins, mods or optimized server type? Default setting : 1.20.4.","color":"red"}
+# error
 execute unless score DataVersion fktool matches 1.. run scoreboard players set DataVersion fktool -1
-execute if score DataVersion fktool matches -1 run scoreboard players set McVersion fktool 12004
+
+# define with default value
+execute if score DataVersion fktool matches -1 unless score #McVersionPrevious fktool matches 1.. run scoreboard players operation McVersion fktool = #McVersionDefault fktool
+execute if score DataVersion fktool matches -1 unless score #McVersionPrevious fktool matches 1.. run tellraw @a[tag=dev] [{"text":"[fktool] Default McVersion applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"}]
+
+# keep the previous value
+execute if score DataVersion fktool matches -1 if score #McVersionPrevious fktool matches 1.. run scoreboard players operation McVersion fktool = #McVersionPrevious fktool
+execute if score DataVersion fktool matches -1 if score #McVersionPrevious fktool matches 1.. run tellraw @a[tag=dev] [{"text":"[fktool] Previous McVersion applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"}]
+
+# warnings
+execute if score DataVersion fktool matches -1 unless entity @p run tellraw @a[tag=dev] [{"text":"[fktool] WARNING: a connected player is required to update the Minecraft version. Default setting applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"},{"text":". Use /reload with a player ingame to update it.","color":"red"}]
+execute if score DataVersion fktool matches -1 if entity @p run tellraw @a[tag=dev] [{"text":"[fktool] ERROR: DataVersion not recognized. Do you use intensive plugins, mods or optimized server type? Default setting applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"},{"text":".","color":"red"}]
