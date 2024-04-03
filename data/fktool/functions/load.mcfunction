@@ -52,6 +52,15 @@ scoreboard players set #98 fktool 98
 scoreboard players set #99 fktool 99
 scoreboard players set #100 fktool 100
 scoreboard players set #101 fktool 101
+scoreboard players set #110 fktool 110
+scoreboard players set #120 fktool 120
+scoreboard players set #130 fktool 130
+scoreboard players set #140 fktool 140
+scoreboard players set #150 fktool 150
+scoreboard players set #160 fktool 160
+scoreboard players set #170 fktool 170
+scoreboard players set #180 fktool 180
+scoreboard players set #190 fktool 190
 scoreboard players set #200 fktool 200
 scoreboard players set #300 fktool 300
 scoreboard players set #400 fktool 400
