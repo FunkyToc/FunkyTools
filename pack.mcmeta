@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 24,
+    "pack_format": 41,
     "supported_formats": [4,99],
     "id": "fk.tool",
     "description": "§6FunkyTool - by FunkyToc \n§8patreon.com/funkytoc"

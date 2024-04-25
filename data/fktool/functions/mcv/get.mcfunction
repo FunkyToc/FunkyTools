@@ -2,14 +2,15 @@
 execute store result score DataVersion fktool run data get entity @p DataVersion
 
 # default McVersion
-scoreboard players set #McVersionDefault fktool 12004
+scoreboard players set #McVersionDefault fktool 12005
 
 # previous McVersion
 execute if score McVersion fktool matches 1.. run scoreboard players operation #McVersionPrevious fktool = McVersion fktool
 
 # set McVersion
 scoreboard players set McVersion fktool 0
-execute if score DataVersion fktool matches 3700.. run scoreboard players set McVersion fktool 12004
+execute if score DataVersion fktool matches 3837.. run scoreboard players set McVersion fktool 12005
+execute if score DataVersion fktool matches 3700..3836 run scoreboard players set McVersion fktool 12004
 execute if score DataVersion fktool matches 3579..3699 run scoreboard players set McVersion fktool 12003
 execute if score DataVersion fktool matches 3567..3578 run scoreboard players set McVersion fktool 12002
 execute if score DataVersion fktool matches 3442..3465 run scoreboard players set McVersion fktool 12000
