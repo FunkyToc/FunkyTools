@@ -4,49 +4,49 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:forest"
+        "biomes": "minecraft:forest"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:dark_forest"
+        "biomes": "minecraft:dark_forest"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:flower_forest"
+        "biomes": "minecraft:flower_forest"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:birch_forest"
+        "biomes": "minecraft:birch_forest"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:crimson_forest"
+        "biomes": "minecraft:crimson_forest"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:old_growth_birch_forest"
+        "biomes": "minecraft:old_growth_birch_forest"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:warped_forest"
+        "biomes": "minecraft:warped_forest"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:windswept_forest"
+        "biomes": "minecraft:windswept_forest"
       }
     }
   ]

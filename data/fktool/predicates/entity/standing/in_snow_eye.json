@@ -7,9 +7,10 @@
       "predicate": {
         "block": {
           "blocks": [
-            "minecraft:powder_snow",
             "minecraft:snow",
-            "minecraft:snow_block"
+            "minecraft:snow_block",
+            "minecraft:powder_snow",
+            "minecraft:powder_snow_cauldron"
           ]
         }
       }

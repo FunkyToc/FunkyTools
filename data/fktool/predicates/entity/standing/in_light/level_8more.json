@@ -1,6 +1,10 @@
 {
   "condition": "minecraft:location_check",
   "predicate": {
-    "biomes": "minecraft:nether_wastes"
+    "light": {
+      "light": {
+        "min": 8
+      }
+    }
   }
 }

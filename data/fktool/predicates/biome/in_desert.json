@@ -4,7 +4,7 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:desert"
+        "biomes": "minecraft:desert"
       }
     }
   ]

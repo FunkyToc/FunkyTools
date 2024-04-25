@@ -4,25 +4,25 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:taiga"
+        "biomes": "minecraft:taiga"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:snowy_taiga"
+        "biomes": "minecraft:snowy_taiga"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:old_growth_pine_taiga"
+        "biomes": "minecraft:old_growth_pine_taiga"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:old_growth_spruce_taiga"
+        "biomes": "minecraft:old_growth_spruce_taiga"
       }
     }
   ]
