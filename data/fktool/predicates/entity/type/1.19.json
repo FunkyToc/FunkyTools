@@ -3,7 +3,7 @@
   "terms": [
     {
       "condition": "minecraft:reference",
-      "name": "fktool:entity/mob/1.17"
+      "name": "fktool:entity/type/1.17"
     },
     {
       "condition": "minecraft:entity_properties",
