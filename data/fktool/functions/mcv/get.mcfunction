@@ -32,12 +32,12 @@ execute unless score DataVersion fktool matches 1.. run scoreboard players set D
 
 # define with default value
 execute if score DataVersion fktool matches -1 unless score #McVersionPrevious fktool matches 1.. run scoreboard players operation McVersion fktool = #McVersionDefault fktool
-execute if score DataVersion fktool matches -1 unless score #McVersionPrevious fktool matches 1.. run tellraw @a[tag=dev] [{"text":"[fktool] Default McVersion applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"}]
+execute if score DataVersion fktool matches -1 unless score #McVersionPrevious fktool matches 1.. run tellraw @a[tag=fkdev] [{"text":"[fktool] Default McVersion applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"}]
 
 # keep the previous value
 execute if score DataVersion fktool matches -1 if score #McVersionPrevious fktool matches 1.. run scoreboard players operation McVersion fktool = #McVersionPrevious fktool
-execute if score DataVersion fktool matches -1 if score #McVersionPrevious fktool matches 1.. run tellraw @a[tag=dev] [{"text":"[fktool] Previous McVersion applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"}]
+execute if score DataVersion fktool matches -1 if score #McVersionPrevious fktool matches 1.. run tellraw @a[tag=fkdev] [{"text":"[fktool] Previous McVersion applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"}]
 
 # warnings
-execute if score DataVersion fktool matches -1 unless entity @p run tellraw @a[tag=dev] [{"text":"[fktool] WARNING: a connected player is required to update the Minecraft version. Default setting applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"},{"text":". Use /reload with a player ingame to update it.","color":"red"}]
-execute if score DataVersion fktool matches -1 if entity @p run tellraw @a[tag=dev] [{"text":"[fktool] ERROR: DataVersion not recognized. Do you use intensive plugins, mods or optimized server type? Default setting applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"},{"text":".","color":"red"}]
+execute if score DataVersion fktool matches -1 unless entity @p run tellraw @a[tag=fkdev] [{"text":"[fktool] WARNING: a connected player is required to update the Minecraft version. Default setting applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"},{"text":". Use /reload with a player ingame to update it.","color":"red"}]
+execute if score DataVersion fktool matches -1 if entity @p run tellraw @a[tag=fkdev] [{"text":"[fktool] ERROR: DataVersion not recognized. Do you use intensive plugins, mods or optimized server type? Default setting applied: ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"},{"text":".","color":"red"}]
