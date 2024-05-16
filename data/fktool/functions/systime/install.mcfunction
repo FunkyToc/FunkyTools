@@ -1,6 +1,6 @@
 # install
-tellraw @p[name=FunkyToc] {"text":"fktool.systime require enabling command_block.","color":"red"}
-tellraw @p[name=FunkyToc] {"text":"fktool.systime installed. Please, do it again.","color":"red"}
+tellraw @a[tag=fkdev] {"text":"fktool.systime require enabling command_block.","color":"red"}
+tellraw @a[tag=fkdev] {"text":"fktool.systime installed. Please, do it again.","color":"red"}
 
 # remove prev
 function fktool:systime/unset

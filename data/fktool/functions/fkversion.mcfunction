@@ -1,19 +1,22 @@
 ## check fktool versions 
 # only update if this version is the most recent one, dealing with multiple fktool folders
 
-# unknown fktool version
-execute unless score #FktoolVersion fktool matches 11300.. run tellraw @a[tag=fkdev] [{"text":"[fktool] exit: undefined score #FktoolVersion","color":"red"}]
-execute unless score #FktoolVersion fktool matches 11300.. run return fail
+# undefined version
+execute unless score #FktoolVersion fktool matches 0.. run tellraw @a[tag=fkdev] [{"text":"[fktool] exit: undefined score #FktoolVersion","color":"red"}]
+execute unless score #FktoolVersion fktool matches 0.. run return fail
 
-# newer fktool already applied
+# incorrect version
+execute if score #FktoolVersion fktool matches ..11299 run tellraw @a[tag=fkdev] [{"text":"[fktool] exit: incorrect score #FktoolVersion","color":"red"}]
+execute if score #FktoolVersion fktool matches ..11299 run return fail
+
+# newer version already applied
 execute if score FktoolVersion fktool > #FktoolVersion fktool run tellraw @a[tag=fkdev] [{"text":"[fktool] exit: a newer Fktool is already applied","color":"red"}]
 execute if score FktoolVersion fktool > #FktoolVersion fktool run return fail
 
-# update current fktool
-execute if score FktoolVersion fktool < #FktoolVersion fktool run tellraw @a[tag=fkdev] [{"text":"[fktool] updating Fktool with ","color":"red"},{"score":{"name":"#FktoolVersion","objective":"fktool"},"color":"white"}]
+# update detected
+execute if score FktoolVersion fktool < #FktoolVersion fktool run tellraw @a[tag=fkdev] [{"text":"[fktool] updating with version ","color":"red"},{"score":{"name":"#FktoolVersion","objective":"fktool"},"color":"white"}]
+execute if score FktoolVersion fktool = #FktoolVersion fktool run tellraw @a[tag=fkdev] [{"text":"[fktool] using version ","color":"red"},{"score":{"name":"#FktoolVersion","objective":"fktool"},"color":"white"}]
 
-# update
+# continue
 scoreboard players operation FktoolVersion fktool = #FktoolVersion fktool
-
-# reset
-scoreboard players reset #FktoolVersion fktool
+return 1
