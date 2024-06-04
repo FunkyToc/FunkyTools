@@ -13,9 +13,11 @@ execute if score #FktoolVersion fktool matches ..11299 run return fail
 execute if score FktoolVersion fktool > #FktoolVersion fktool run tellraw @a[tag=fkdev] [{"text":"[fktool] exit: a newer Fktool is already applied","color":"red"}]
 execute if score FktoolVersion fktool > #FktoolVersion fktool run return fail
 
-# update detected
+# up to date
+execute if score FktoolVersion fktool = #FktoolVersion fktool run tellraw @a[tag=fkdev] [{"text":"[fktool] using up-to-date version ","color":"red"},{"score":{"name":"#FktoolVersion","objective":"fktool"},"color":"white"}]
+
+# need update
 execute if score FktoolVersion fktool < #FktoolVersion fktool run tellraw @a[tag=fkdev] [{"text":"[fktool] updating with version ","color":"red"},{"score":{"name":"#FktoolVersion","objective":"fktool"},"color":"white"}]
-execute if score FktoolVersion fktool = #FktoolVersion fktool run tellraw @a[tag=fkdev] [{"text":"[fktool] using version ","color":"red"},{"score":{"name":"#FktoolVersion","objective":"fktool"},"color":"white"}]
 
 # continue
 scoreboard players operation FktoolVersion fktool = #FktoolVersion fktool
