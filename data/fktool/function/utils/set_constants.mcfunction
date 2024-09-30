@@ -1,11 +1,38 @@
 ## Set usefull constants
 
 # flat
+scoreboard players set #-5 fktool -1000000
+scoreboard players set #-5 fktool -100000
+scoreboard players set #-5 fktool -10000
+scoreboard players set #-5 fktool -1000
+scoreboard players set #-5 fktool -900
+scoreboard players set #-5 fktool -800
+scoreboard players set #-5 fktool -700
+scoreboard players set #-5 fktool -600
+scoreboard players set #-5 fktool -500
+scoreboard players set #-5 fktool -400
+scoreboard players set #-5 fktool -300
+scoreboard players set #-5 fktool -200
+scoreboard players set #-5 fktool -100
+scoreboard players set #-5 fktool -90
+scoreboard players set #-5 fktool -80
+scoreboard players set #-5 fktool -70
+scoreboard players set #-5 fktool -60
+scoreboard players set #-5 fktool -50
+scoreboard players set #-5 fktool -40
+scoreboard players set #-5 fktool -30
+scoreboard players set #-5 fktool -20
+scoreboard players set #-5 fktool -10
+scoreboard players set #-5 fktool -9
+scoreboard players set #-5 fktool -8
+scoreboard players set #-5 fktool -7
+scoreboard players set #-5 fktool -6
 scoreboard players set #-5 fktool -5
 scoreboard players set #-4 fktool -4
 scoreboard players set #-3 fktool -3
 scoreboard players set #-2 fktool -2
 scoreboard players set #-1 fktool -1
+scoreboard players set #0 fktool 0
 scoreboard players set #1 fktool 1
 scoreboard players set #2 fktool 2
 scoreboard players set #3 fktool 3
