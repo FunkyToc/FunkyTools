@@ -38,6 +38,7 @@ You now can:
 This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License: http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 # Thanks
-My Patreons that buy me coffe every days.
+My Patreons that buy me coffee every days.
 My community wich reminds me that I'm lazy.
 Minecraft community in general, that gives meaning to this project.
+Life, to be.
