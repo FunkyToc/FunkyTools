@@ -3,7 +3,7 @@ Quick add tools to other datapack projects.
 Features list: McVersion, Random, Difficulty, Systime, constants, biomes, predicates.
 
 # Requires 
-- Minecraft 1.21+
+- Minecraft 1.21.5+
 
 # Use
 - Copy the "data/fktool/" namespace folder. Paste them in the same place of your datapack's folder.

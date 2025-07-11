@@ -2,7 +2,7 @@
 scoreboard objectives add fktool dummy
 
 # fkversion
-scoreboard players set #FktoolVersion fktool 12105
+scoreboard players set #FktoolVersion fktool 12107
 execute store success score #tmp fktool run function fktool:fkversion
 scoreboard players reset #FktoolVersion fktool
 execute if score #tmp fktool matches 0 run return run tellraw @a[tag=fkdev] [{"text":"[fktool] exit: error during update","color":"red"}]
