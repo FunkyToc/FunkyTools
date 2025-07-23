@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:input/forward"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:input/backward"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:input/left"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:input/right"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:input/sneak"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:input/jump"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:input/sprint"
+    }
+  ]
+}
