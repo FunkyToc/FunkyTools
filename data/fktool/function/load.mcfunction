@@ -9,6 +9,7 @@ execute if score #tmp fktool matches 0 run return run tellraw @a[tag=fkdev] [{"t
 
 # init
 function fktool:utils/set_constants
+function fktool:utils/tellraw
 function fktool:difficulty/get
 function fktool:mcv/get
 function fktool:rng/get
