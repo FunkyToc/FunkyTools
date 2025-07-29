@@ -1,3 +1,4 @@
+## DONT RENAME STORAGE NAMESPACE HERE
 # use: tellraw @a {"storage":"fktool:info","nbt":"link.pmc","interpret":true}
 data modify storage fktool:info author.name set value {"text":"FunkyToc","color":"#8269ff"}
 data modify storage fktool:info debug.fktoolversion set value [{"text":"Loaded with McVersion -> ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"}]
@@ -10,10 +11,13 @@ data modify storage fktool:info link.patreon set value {"text":"Patreon","bold":
 
 # compose
 data modify storage fktool:info link.clickhover set value {"text":"click to get the link"}
-data modify storage fktool:info load.enabled set value [{"text":"Enabled. "}]
-data modify storage fktool:info load.options set value [{"text":"Modify Options: "}]
-data modify storage fktool:info load.mcvko set value [{"text":"Outdated game version detected."}]
-data modify storage fktool:info load.update set value [{"text":"Please, play with a more recent MC version or download an older version of this datapack."}]
+data modify storage fktool:info load.enabled set value {"text":"Enabled. "}
+data modify storage fktool:info load.options set value {"text":"Modify Options: "}
+data modify storage fktool:info load.mcvko set value {"text":"Outdated game version detected."}
+data modify storage fktool:info load.update set value {"text":"Please, play with a more recent MC version or download an older version of this datapack."}
 data modify storage fktool:info load.devby set value [{"text":"Developed with love by "},{"storage":"fktool:info","nbt":"author.name","interpret":true,"bold":true}]
 data modify storage fktool:info load.networks set value [{"text":"See all projects on "},{"storage":"fktool:info","nbt":"link.pmc","interpret":true},{"text":" or "},{"storage":"fktool:info","nbt":"link.modrinth","interpret":true},{"text":"!"}]
 data modify storage fktool:info load.free set value [{"text":"You're playing the FREE version, get the customizable version becoming a "},{"storage":"fktool:info","nbt":"link.patreon","interpret":true}]
+
+# fktool
+data modify storage fktool:info dev.namespace.error set value {"text":"[fktool] namespace not renamed (incompatibility)","color":"red"}
