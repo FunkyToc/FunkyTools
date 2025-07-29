@@ -3,7 +3,7 @@ execute as FunkyToc unless entity @s[tag=fkdev] run tellraw @s [{"text":"[fktool
 
 # fktool folder not renamed
 ## DONT RENAME NAMESPACE HERE
-execute as FunkyToc run tellraw @s[tag=fkdev] {"storage":"fktool:info","nbt":"dev.namespace.error","interpret":true}
+execute as FunkyToc run function fktool:warnings/namespace
 ## DONT RENAME NAMESPACE HERE
 
 # tick
