@@ -17,4 +17,4 @@ data modify storage fktool:info load.mcvko set value {"text":"Outdated game vers
 data modify storage fktool:info load.update set value {"text":"Please, play with a more recent MC version or download an older version of this datapack."}
 data modify storage fktool:info load.devby set value [{"text":"Developed with love by "},{"storage":"fktool:info","nbt":"author.name","interpret":true,"bold":true}]
 data modify storage fktool:info load.networks set value [{"text":"See all projects on "},{"storage":"fktool:info","nbt":"link.pmc","interpret":true},{"text":" or "},{"storage":"fktool:info","nbt":"link.modrinth","interpret":true},{"text":"!"}]
-data modify storage fktool:info load.free set value [{"text":"You're playing the FREE version, get the customizable version becoming a "},{"storage":"fktool:info","nbt":"link.patreon","interpret":true}]
+data modify storage fktool:info load.free set value [{"text":"You're playing the FREE version. Please, consider supporting me by becoming a "},{"storage":"fktool:info","nbt":"link.patreon","interpret":true},{"text":". I need your support, comments and shares to maintain those projects updated."}]
