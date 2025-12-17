@@ -9,7 +9,8 @@ execute if score McVersion fktool matches 1.. run scoreboard players operation #
 
 # set McVersion
 scoreboard players set McVersion fktool 0
-execute if score DataVersion fktool matches 4554.. run scoreboard players set McVersion fktool 12109
+execute if score DataVersion fktool matches 4671.. run scoreboard players set McVersion fktool 12111
+execute if score DataVersion fktool matches 4554..4670 run scoreboard players set McVersion fktool 12109
 execute if score DataVersion fktool matches 4440..4553 run scoreboard players set McVersion fktool 12108
 execute if score DataVersion fktool matches 4438..4439 run scoreboard players set McVersion fktool 12107
 execute if score DataVersion fktool matches 4435..4437 run scoreboard players set McVersion fktool 12106

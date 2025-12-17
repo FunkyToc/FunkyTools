@@ -3,8 +3,8 @@ execute as FunkyToc unless entity @s[tag=fkdev] run tellraw @s [{"text":"[fktool
 
 # fktool folder not renamed
 ## DONT RENAME NAMESPACE HERE
-execute as FunkyToc run function fktool:warnings/namespace
+execute as @a[tag=fkdev] run function fktool:warnings/namespace
 ## DONT RENAME NAMESPACE HERE
 
 # tick
-execute if score McVersion fktool matches 12004.. run function fktool:warnings/tick_rate
+#execute if score McVersion fktool matches 12005.. run function fktool:warnings/tick_rate

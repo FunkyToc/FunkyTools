@@ -1,4 +1,4 @@
-# "tick" function is broken when triggered by a datapack (1.20.5). Check when 1.21.
+# "tick" function is broken when triggered by a datapack (1.20.5+). Check when 26.1 .
 scoreboard players set TickRate fktool 20
 #execute store result score TickRate fktool run tick query
 
