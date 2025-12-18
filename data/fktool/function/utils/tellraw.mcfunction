@@ -6,8 +6,8 @@ data modify storage fktool:info author.name set value {"text":"FunkyToc","color"
 data modify storage fktool:info debug.fktoolversion set value [{"text":"Loaded with McVersion -> ","color":"red"},{"score":{"name":"McVersion","objective":"fktool"},"color":"gray"}]
 
 # links
-data modify storage fktool:info link.pmc set value {"text":"PMC","color":"#3366cc","click_event":{"action":"open_url","url":"https://www.planetminecraft.com/member/funkytoc/submissions/"},"hover_event":{"action":"show_text","value":[{"storage":"fktool:info","nbt":"link.clickhover","interpret":true}]}}
-data modify storage fktool:info link.modrinth set value {"text":"Modrinth","color":"#1bd96a","click_event":{"action":"open_url","url":"https://modrinth.com/user/FunkyToc"},"hover_event":{"action":"show_text","value":[{"storage":"fktool:info","nbt":"link.clickhover","interpret":true}]}}
+data modify storage fktool:info link.pmc set value {"text":"PMC","color":"#6bbfff","click_event":{"action":"open_url","url":"https://www.planetminecraft.com/member/funkytoc/submissions/"},"hover_event":{"action":"show_text","value":[{"storage":"fktool:info","nbt":"link.clickhover","interpret":true}]}}
+data modify storage fktool:info link.modrinth set value {"text":"Modrinth","color":"#70ffac","click_event":{"action":"open_url","url":"https://modrinth.com/user/FunkyToc"},"hover_event":{"action":"show_text","value":[{"storage":"fktool:info","nbt":"link.clickhover","interpret":true}]}}
 data modify storage fktool:info link.discord set value {"text":"Discord","color":"#1bd96a","click_event":{"action":"open_url","url":"https://discord.gg/eGMrfSQ"},"hover_event":{"action":"show_text","value":[{"storage":"fktool:info","nbt":"link.clickhover","interpret":true}]}}
 data modify storage fktool:info link.patreon set value {"text":"Patreon","bold":true,"color":"#E47373","click_event":{"action":"open_url","url":"https://www.patreon.com/funkytoc"},"hover_event":{"action":"show_text","value":[{"storage":"fktool:info","nbt":"link.clickhover","interpret":true}]}}
 
