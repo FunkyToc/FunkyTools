@@ -1,1 +1,1 @@
-$execute store result score Random fktool run random value $(min)..$(max)
+$execute store result score Random fktool run return run random value $(min)..$(max)
