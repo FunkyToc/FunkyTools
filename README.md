@@ -3,7 +3,7 @@ Quick add tools to other datapack projects.
 Features list: McVersion, Random, Difficulty, Systime, constants, biomes, predicates.
 
 # Requires 
-- Minecraft 1.21.5+
+- Minecraft 26.1+
 
 # Use
 - Copy the "data/fktool/" namespace folder. Paste them in the same place of your datapack's folder.
@@ -14,7 +14,7 @@ Features list: McVersion, Random, Difficulty, Systime, constants, biomes, predic
 You now can:
   - Check minecraft client version
   Update the score before use: /function fktool:mcv/get
-  Test the score in your code: /execute if score McVersion fktool matches 11500..11802 run say MC client is between 1.15 and 1.18.2
+  Test the score in your code: /execute if score mcv fktool matches 11500..11802 run say MC client is between 1.15 and 1.18.2
 
   - Generate random numbers between 0 - 100
   Update the score before use: /function fktool:rng/get
