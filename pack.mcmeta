@@ -1,6 +1,6 @@
 {
   "pack": {
-    "min_format": 100,
+    "min_format": 101.2,
     "max_format": 199,
     "id": "fk.tool",
     "description": "§6FunkyTool - by FunkyToc \n§8patreon.com/funkytoc"
